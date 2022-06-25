@@ -1,0 +1,4 @@
+#a list of all HTTP response codes in the log and their count
+#Syntax : 
+
+awk '{print $9}' web-server.log | sort | uniq -c
