@@ -1,0 +1,5 @@
+"the number of HTTP 200 errors in it"
+Syntax :- 
+
+awk '{print $9}' web-server.log | grep -c 200
+
